@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+}
+
+.form-name-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.form-email-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.form-email-wrapper input {
+  width: 300px;
+}
+
+.form-gender-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.form-gender-wrapper div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.form-gender-wrapper div input {
+  margin: 0px;
+}
+
+.form-message-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

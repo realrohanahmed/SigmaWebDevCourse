@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First - Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>First - Form</h1>
+    <form action="/submit" method="post">
+      <div class="form-name-wrapper">
+        <div>
+          <label for="">First Name:</label>
+          <input type="text" name="firstname" id="firstname" />
+        </div>
+        <div>
+          <label for="">Last Name:</label>
+          <input type="text" name="lastname" id="lastname" />
+        </div>
+      </div>
+      <br />
+      <div class="form-email-wrapper">
+        <label for="">Email:</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <br />
+      <div class="form-gender-wrapper">
+        <label for="">Gender:</label>
+        <br />
+        <div>
+          <div>
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male">Male</label>
+          </div>
+          <div>
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female">Female</label>
+          </div>
+          <div>
+            <input type="radio" name="gender" id="other" value="other" />
+            <label for="other">Other</label>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="form-message-wrapper">
+        <label for="">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </div>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
