@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #9e18c3;
+    --secondary-color: #ffffff;
+    --other-color: #000000;
+}
+
+nav{
+    background-color: var(--primary-color);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 30px 50px;
+    color: var(--secondary-color);
+}
