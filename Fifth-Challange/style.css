@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav{
+    background-color: purple;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner{
+    background-color: rgb(156, 131, 156);
+    height: 70vh;
+    width: 100%;
+    text-align: center;
+}
+
+.banner img{
+    padding: 25px;
+}
+
+.welcome{
+    text-align: center;
+    width: 500px;
+    padding: 100px 0px;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.footer p{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: purple;
+    margin-top: 100px;
+}
