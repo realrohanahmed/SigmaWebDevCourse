@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cardwrapper{
+    background-color: white;
+    margin: 50px auto 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 700px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.img-container img{
+    border-radius: 10px;
+}
+
+.captions{
+    margin: 20px;
+}
+
+.captions span{
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+    margin-right: 10px;
+    border: 1px solid grey;
+    padding: 7px 15px;
+    border-radius: 30px;
+}
+
+.captions h1{
+    text-align: left;
+    margin-top: 25px;
+}
+
+.captions p{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 18px;
+    color: gray;
+    line-height: 1.5;
+}
+
+.btnwrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btnwrapper button{
+    background-color: aqua;
+    padding: 20px 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: blue;
+    border: 2px solid blue;
+}
