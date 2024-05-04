@@ -1,39 +1,180 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-nav{
-    padding: 30px;
-    background-color: black;
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
+nav {
+  padding: 30px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  /* gap: 30px; */
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+}
+
+ul li {
+  list-style: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  gap: 30px;
+}
+
+i {
+  color: white;
+}
+
+.main-section div {
+  text-align: center;
+  padding: 100px;
+  line-height: 60px;
+}
+
+.main-section div h1 {
+  font-size: 60px;
+  font-family: "Roboto";
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+span {
+  font-weight: 800;
+}
+
+.main-section div p {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 100;
+}
+
+.main-section div button {
+  background-color: rgb(61, 175, 175);
+  border-radius: 10px;
+  padding: 20px 40px;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  font-family: "Roboto";
+  margin-top: 10px;
+}
+
+.grid div {
+  height: 50px;
+  width: 69%;
+  margin: auto;
+}
+
+.grid div h2 {
+  text-align: start;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.grid-wrapper {
+  width: 60vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin: auto;
+  justify-content: center;
+}
+
+.grid-items {
+  width: 22vw;
+  height: 25vh;
+  border-radius: 2px;
+  background-color: aliceblue;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.grid-buttons {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.btn-1 {
+  background-color: rgb(47, 148, 148);
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+
+.btn-2 {
+  background-color: green;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+
+@media screen and (max-width: 1000px) {
+  .grid-wrapper {
+    width: 80vw;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-items {
+    width: 40vw;
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .grid-wrapper {
+    width: 50vw;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-items {
+    width: 80vw;
+    height: 25vh;
+  }
+  nav{
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
-
-ul{
-    display: flex;
-    gap: 50px;
-}
-
-ul li{
-    list-style: none;
-    color: white;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-.lang{
-    display: flex;
+    gap: 20px;
+  }
+  ul{
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
-
-.nav-items{
-    display: flex;
-    gap: 30px;
-}
-
-i{
-    color: white;
+    gap: 20px;
+  }
+  .nav-items{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
