@@ -58,3 +58,20 @@ ul li a{
     background-color: purple;
     margin-top: 100px;
 }
+
+.favbtn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.favbtn div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: yellow;
+}
