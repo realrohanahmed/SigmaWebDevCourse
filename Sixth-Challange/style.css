@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+}
+
+ul li{
+    list-style: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    gap: 30px;
+}
+
+i{
+    color: white;
+}
