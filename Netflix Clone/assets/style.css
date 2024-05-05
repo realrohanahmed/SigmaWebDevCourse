@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 35px;
+  position: sticky;
+  z-index: 999;
+}
+
+.nav-links ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-links ul li {
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.lang-btn button {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  border: 1px white solid;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.sign-btn button {
+  background-color: red;
+  border: none;
+  padding: 13px 25px;
+  border: solid 1px transparent;
+  border-radius: 5px;
+  color: white;
+}
+
+.hero {
+  margin-top: -6%;
+  width: 100vw;
+  height: 80vh;
+  background-image: url(./image/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.text h1 {
+  color: white;
+  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+
+.sub-head {
+  color: white;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  line-height: 4;
+}
+
+.description {
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.form {
+  margin-top: 35px;
+}
+
+.form input {
+  padding: 20px 150px 20px 10px;
+}
+
+.form input::placeholder {
+  text-align: start;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: gray;
+}
+
+.form button {
+  padding: 13px 50px 18px 50px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.form button i {
+  padding: 5px;
+}
