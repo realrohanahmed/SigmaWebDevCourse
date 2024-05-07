@@ -25,6 +25,10 @@ nav {
   font-family: "Open Sans", sans-serif;
 }
 
+main {
+  background-color: black;
+}
+
 .lang-btn button {
   color: white;
   display: flex;
@@ -45,6 +49,7 @@ nav {
   border: solid 1px transparent;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
 }
 
 .hero {
@@ -63,18 +68,18 @@ nav {
   justify-content: center;
   width: 100vw;
   height: 80vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .text h1 {
   color: white;
-  font-size: 36px;
+  font-size: 56px;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
 }
 
 .sub-head {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   text-align: center;
@@ -83,7 +88,7 @@ nav {
 
 .description {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   text-align: center;
@@ -102,7 +107,7 @@ nav {
   text-align: start;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   color: gray;
 }
 
@@ -117,4 +122,86 @@ nav {
 
 .form button i {
   padding: 5px;
+}
+
+.separator {
+  height: 8px;
+  background-color: grey;
+}
+
+.content-1 {
+  width: 70vw;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px 65px 0px;
+}
+
+.text-1 {
+  color: white;
+}
+
+.text-1 h2 {
+  font-size: 48px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+.text-1 p {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.img {
+  position: relative;
+}
+
+.content-1 img {
+  position: relative;
+  z-index: 999;
+}
+.content-1 video {
+  position: absolute;
+  top: 20%;
+  left: 12%;
+}
+
+.faq-header h2 {
+  color: white;
+  font-size: 48px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  padding: 50px 0px 20px 0px;
+}
+
+.box {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(69, 69, 69);
+  width: 50vw;
+  height: 100%;
+  margin: 20px auto 0px auto;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.fourth {
+  width: 50vw;
+  text-align: center;
+  padding: 70px 0px 50px 0px;
+  margin: auto;
+}
+
+.fourth h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
 }
